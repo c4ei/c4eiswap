@@ -23,7 +23,7 @@ const keyMapping = {
     "msg": "msg",
 }
 
-const jsonString = `{"fields":["id","addr","nonce","src","dst","src_amount","min_rate","fee","receive","status","msg","tx_hash","created_at","updated_at","side_trade"],"orders":[[15629,"0x09B64e3d589AE90ACCE69C75C346722D8EbFB65D","0x88e7e3b54147f57da5c8aa80b362ef720000000000000000000000005d107f7e","SNT",null,15,0.0644,0.0046,0,"cancelled",[],null,1561362335,1561362369,"buy"],[15624,"0x8fa07f46353a2b17e92645592a94a0fc1ceb783f","0x88e7e3b54147f57da5c8aa80b362ef720000000000000000000000005d1070fc","WETH","TUSD",0.5,368.9053,0.0045,0,"open",[],null,1561358597,1561358597,"buy"],[6787,"0x8fa07f46353a2b17e92645592a94a0fc1ceb783f","0x88e7e3b54147f57da5c8aa80b362ef720000000000000000000000005d0ca5b6","OMG","KNC",1.6835,7.4,0.004,0,"open","hello",null,1561109958,1561112985,"buy"]]}`
+const jsonString = `{"fields":["id","addr","nonce","src","dst","src_amount","min_rate","fee","receive","status","msg","tx_hash","created_at","updated_at","side_trade"],"orders":[[15629,"0x09B64e3d589AE90ACCE69C75C346722D8EbFB65D","0x88e7e3b54147f57da5c8aa80b362ef720000000000000000000000005d107f7e","SNT",null,15,0.0644,0.0046,0,"cancelled",[],null,1561362335,1561362369,"buy"],[15624,"0x8fa07f46353a2b17e92645592a94a0fc1ceb783f","0x88e7e3b54147f57da5c8aa80b362ef720000000000000000000000005d1070fc","WETH","TUSD",0.5,368.9053,0.0045,0,"open",[],null,1561358597,1561358597,"buy"],[6787,"0x8fa07f46353a2b17e92645592a94a0fc1ceb783f","0x88e7e3b54147f57da5c8aa80b362ef720000000000000000000000005d0ca5b6","OMG","CEIK",1.6835,7.4,0.004,0,"open","hello",null,1561109958,1561112985,"buy"]]}`
 
 const data = filterOrder(JSON.parse(jsonString));
 
@@ -342,7 +342,7 @@ export function getRelatedOrders(sourceToken, destToken, minRate, address) {
                     123456,
                     "0x3Cf628d49Ae46b49b210F0521Fbd9F82B461A9E1",
                     57818117002753298411002922520048253037538608343117297513952908572797262671854,
-                    "KNC",
+                    "CEIK",
                     "WETH",
                     "300",
                     "0.0028",

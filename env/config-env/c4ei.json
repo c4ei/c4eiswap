@@ -1,0 +1,85 @@
+{
+    "connections": {
+        "http": [
+            {
+                "endPoint": "https://rpc.c4ei.net",
+                "type": "cached"
+            },
+            {
+                "endPoint": "https://rpc.c4ei.net",
+                "type": "prune"
+            }
+        ],
+        "ws": "wss://https://rpc.c4ei.net"
+    },
+    "min_accept_amount": 0.5,
+    "kyberswap_api": "https://dev-userdashboard.knstats.com/api",
+    "portfolio_api": "https://dev-portfolio.knstats.com",
+    "promo_token": "OMG",
+    "indexForTrending": "DAI",
+    "priority_tokens": [
+        "ETH",
+        "DAI",
+        "KNC"
+    ],
+    "limitOrder": {
+        "minSupportOrder": 0.001,
+        "maxPercentTriggerRate": 900,
+        "page_size": 50
+    },
+    "wrapETHToken": "WETH",
+    "tokens": {
+        "C4EI": {
+            "symbol": "C4EI",
+            "name": "C4EI",
+            "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+            "decimals": 18,
+            "sp_limit_order": true,
+            "is_quote": true,
+            "quote_priority": 2
+        },
+        "KNC": {
+            "symbol": "KNC",
+            "name": "KyberNetwork",
+            "address": "0x7b2810576aa1cce68f2b118cef1f36467c648f92",
+            "decimals": 18,
+            "listing_time": 1578370140,
+            "gasApprove": 120000,
+            "gasLimit": "400000",
+            "sp_limit_order": true
+        },
+        "WETH": {
+            "symbol": "WETH",
+            "name": "Wrapped Ether",
+            "address": "0xbca556c912754bc8e7d4aad20ad69a1b1444f42d",
+            "decimals": 18,
+            "sp_limit_order": true,
+            "is_quote": true,
+            "quote_priority": 2
+        },
+        "DAI": {
+            "symbol": "DAI",
+            "name": "DAI",
+            "address": "0xad6d458402f60fd3bd25163575031acdce07538d",
+            "decimals": 18,
+            "listing_time": 1578393540,
+            "gasApprove": 210000,
+            "gasLimit": "500000",
+            "sp_limit_order": true,
+            "is_quote": true,
+            "quote_priority": 3,
+            "is_gas_fixed": true
+        }
+    },
+    "ethScanUrl": "https://exp.c4ei.net/",
+    "broadcastTx": "https://dev-ropsten-broadcast.knstats.com/",
+    "enjinx": "https://kyber.enjinx.io/",
+    "reserve": "0x0fc1cf3e7dd049f7b42e6823164a64f76fc06be0",
+    "kyberswapAddress": "0xa33caaed059f0c574c07136a5da9f28dc2fa27c2",
+    "network": "0xd719c34261e099Fdb33030ac8909d5788D3039C4",
+    "wrapper": "0x665d34f192f4940da4e859ff7768c0a80ed3ae10",
+    "networkId": 21004,
+    "chainName": "C4EI",
+    "tracker": "https://ropsten-api.kyber.network",
+    "highSlippage": 1
+}

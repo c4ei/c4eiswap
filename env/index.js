@@ -1,6 +1,7 @@
 
 
 var env = process.env.env ? process.env.env: "ropsten"
+// var env = process.env.env ? process.env.env: "c4ei"
 
 
 var config

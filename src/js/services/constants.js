@@ -8,7 +8,7 @@ const TRANSFER_TOPIC = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a
 const ETHER_ADDRESS = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 
 const DEFAULT_BPS_FEE = 8;
-var secondKey = "KNC"
+var secondKey = "CEIK"
 
 const EXCHANGE_CONFIG = {
   path: "swap",
@@ -91,7 +91,7 @@ const INIT_EXCHANGE_FORM_STATE = {
     sourceSymbol: "ETH",
     sourceDecimal: 18,
     destName: "Kyber",
-    destSymbol: "KNC",
+    destSymbol: "CEIK",
     destDecimal: 18,
     sourceAmount: 0,
     destAmount: 0
@@ -215,8 +215,8 @@ const INIT_LIMIT_ORDER_STATE = {
   passphrase: false,
   selected: false,
   isSelectToken: true,
-  sourceToken: BLOCKCHAIN_INFO.tokens["KNC"].address,
-  sourceTokenSymbol: "KNC",
+  sourceToken: BLOCKCHAIN_INFO.tokens["CEIK"].address,
+  sourceTokenSymbol: "CEIK",
   destToken: BLOCKCHAIN_INFO.tokens[BLOCKCHAIN_INFO.wrapETHToken].address,
   destTokenSymbol: BLOCKCHAIN_INFO.wrapETHToken,
   sourceAmount: "",
@@ -300,7 +300,7 @@ const INIT_LIMIT_ORDER_STATE = {
     sourceSymbol: "ETH",
     sourceDecimal: 18,
     destName: "Kyber",
-    destSymbol: "KNC",
+    destSymbol: "CEIK",
     destDecimal: 18,
     sourceAmount: 0,
     destAmount: 0

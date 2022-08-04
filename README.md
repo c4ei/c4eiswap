@@ -14,6 +14,7 @@ npm install
 
 ```
 npm run ropsten
+npm run klay
 ```
 
 Once it is running, user can access to the wallet by going to `http://localhost:3002`

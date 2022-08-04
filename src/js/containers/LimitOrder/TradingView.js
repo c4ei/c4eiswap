@@ -5,7 +5,7 @@ import BLOCKCHAIN_INFO from "../../../../env"
 
 @connect((store) => {
   return {
-    selectedSymbol: 'KNC',
+    selectedSymbol: 'CEIK',
     locale: store.locale,
     translate: getTranslate(store.locale),
     global: store.global
